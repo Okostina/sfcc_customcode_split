@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adyen Diff Tool</title>
+</head>
+<body>
+    <h1>Adyen Integration Customization Diff Tool</h1>
+    <label for="adyen-url">Adyen SFCC Base Cartridge release GitHub URL:</label>
+    <input type="text" id="adyen-url" placeholder="Enter GitHub URL" required>
+    
+    <label for="integration-folder">Your Integration Folder:</label>
+    <input type="text" id="integration-folder" placeholder="Enter local path" required>
+    
+    <label for="customizations-folder">Where Customizations Will Go:</label>
+    <input type="text" id="customizations-folder" placeholder="Enter path or create int_custom_cartridge" required>
+    
+    <button id="start-diff">Start Diff</button>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
